@@ -2,7 +2,8 @@
   "name": "project",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "react": "16.13.1",
@@ -13,10 +14,13 @@
     "styled-components": "5.1.0"
   },
   "devDependencies": {
-    "webpack": "^2.0",
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "*",
-    "babel-preset-react": "*"
+    "babel-preset-react": "*",
+    "webpack": "^2.0",
+    "webpack-dev-server": "^2.5.1"
   }
 }

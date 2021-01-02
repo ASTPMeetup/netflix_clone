@@ -5,7 +5,7 @@ module.exports = {
     "index": "./src/index"
   },
   "output": {
-    "path": path.join(__dirname, 'src/dist'),
+    "path": path.join(__dirname, 'public'),
     "filename": "[name].pack.js"
   },
   "module": {
@@ -24,5 +24,9 @@ module.exports = {
         "test": /\.js$/
       }
     ]
+  },
+  "devServer": {
+    "contentBase": path.join(__dirname, 'public'),
+    "port": 9000
   }
 };
