@@ -6,11 +6,11 @@
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
+    "fuse.js": "5.2.3",
+    "normalize.css": "8.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
-    "fuse.js": "5.2.3",
-    "normalize.css": "8.0.1",
     "styled-components": "5.1.0"
   },
   "devDependencies": {
